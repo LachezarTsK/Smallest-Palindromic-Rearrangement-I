@@ -11,10 +11,10 @@ public class Solution
         {
             ++frequency[letter - 'a'];
         }
-        return createSmallestPalindrome(inputPalindrome, frequency);
+        return CreateSmallestPalindrome(inputPalindrome, frequency);
     }
 
-    private String createSmallestPalindrome(string inputPalindrome, int[] frequency)
+    private String CreateSmallestPalindrome(string inputPalindrome, int[] frequency)
     {
         int index = 0;
         char singleLetter = NO_SINGLE_LETTER;
